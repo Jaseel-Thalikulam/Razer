@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:wght@300&display=swap');
+body{
+  background-color: #222222;
+}
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+outline-color: #555555;
+outline-width: 2px;
+
+}
+.header{
+    width: 100%;
+    background-color: black;
+    height: 3.75rem;
+    border-bottom: 1px solid #44D62C;
+
+}
+.logo{
+    padding-top: 14px;
+    width: 35px;
+    margin-left: 76px;
+}
+.menu ul {
+  list-style: none;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+  margin-right: 3px;
+}
+.header li{
+    padding-left: 30px;
+    width: 110px;
+   
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.menu li a:hover{
+    color: #ffff;
+    cursor: pointer;
+
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .menu ul li a{
+   
+    text-decoration: none;
+    color: #555555; 
+  }
+  .shiping {
+    color: white;
+    background-color: #555555;
+    width: 100%;
+   height: 43px;
+   
+  }
+  .shiping a{
+    display:flex;
+    font-size:medium; 
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+  .single{
+position: relative;
+text-align: center;
+color: white;
+  }
+  .single  {
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/holiday-gift-guide-2022-homepage-1920x700-desktop.jpg);
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 1px grey;
+    margin-bottom: 10px;
+  
+}
+.text1{
+  position: absolute;
+  width: 100%;
+  height:50px;
+  padding-top: 32px;
+  
+  
+}
+.text1 a {
+  font-family: 'Cairo', sans-serif;
+  color:white;
+  justify-content: center;
+ font-size: 50px;
+ padding-bottom: 25px;
+ letter-spacing:2px ;
+ 
+  
+
+}
+.text2{
+  position:absolute;
+  width: 100%;
+  height:50px;
+padding-top: 100px;
+}
+.text2 a{
+color:white;
+justify-content: center;
+letter-spacing: 0px;
+font-family: 'Cairo', sans-serif;
+font-size: 30px;
+
+}
+.text3 {
+  text-decoration: none;
+  font-size: 1.3125rem;
+  padding-top: 150px;
+  
+  
+}
+.text3 a{
+ 
+  color :white;
+
+}
+
+.text3 :hover{
+  cursor: pointer;
+  text-decoration: underline;
+  
+  
+}
+.text3 img{
+  height: 15px;
+  width: 10px;
+  filter: brightness(2)
+}
+
+.single2{
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade14-mercury-2022-homepage-desktop.jpg);
+  
+}
+.single3{
+  background-image:url(https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-blade-15-homepage-desktop-2022-oled.jpg);
+  
+}
+.single4{
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/22ff821b0dfb4c12d56409add337a4c5/razer-kraken-kitty-v2-pro--homepage-desktop.jpg);
+  }
+.single5{
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/deathstalkerprotkl-950x580-desktop.jpg);
+  background-size: cover;  
+
+}
+.twice{
+  background-position: center;
+  height: 580px;
+ display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+overflow: hidden;
+margin-bottom: 10px;
+  
+}
+.column1{
+  width: 49.6%;
+  height:600px;
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/6e4a5a0f87b5334e4b8f8dc40c3c6da9/razer-naga-v2-pro-950x580-desktop.jpg);
+  background-position: centre;
+}
+.column2{
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/dec1968e4414aa9dd00718ae5c3f531b/razer-edge-b-950x580-desktop.jpg);
+  background-position: center top;
+}
+.text33{
+  font-size: 17px;
+
+}
+.text22{
+font-size: 18px;
+width: 49.6%;
+}
+.text11{
+font-size: 35px;
+width: 49.6%;
+}
+.column3{
+background-image: url(https://assets2.razerzone.com/images/pnx.assets/84d0946021d11b959bda0545c4d4c234/razer-enki-pro-koenigsegg-williams-esports-480x615-mobile.jpg);
+background-position: center ;
+}
+.column4{
+  background-image: url(https://assets2.razerzone.com/images/pnx.assets/775b8527dbfc2fd1f50d93c63e7bfbb3/razerstore-reward-acquisition-b-950x580-desktop.jpg);
+  background-position:center top;
+}
+.options{
+  background-color: #111111;
+width: 100%;
+height: 265px;
+font-family: 'Cairo', sans-serif;
+font-size: smaller;
+text-decoration: none;
+align-items: flex-start;
+
+}
+.options ul li a{
+  color: #555555;
+}
+  .first{
+
+    width: 303px;
+    padding-left: 71px;
+
+    
+  }
+  
+.first ul{
+  list-style-type: none;  
+}
+.first ul li :hover{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+  
+
+.mainmenu{
+  color: white;
+  word-spacing: 15em;
+  padding-left: 70px;
+  padding-top: 15px;
+
+}
+
+.second{
+  width: 246px;
+  
+}
+.second ul li{
+  list-style-type: none; 
+}
+.mainbox{
+  display: flex;
+}
+.third{
+  width:248px;
+}
+.third ul li{
+  list-style-type: none; 
+}
+
+.fourth{
+  width: 260px;
+}
+.fourth ul li{
+  list-style-type: none; 
+}
+.second ul li :hover{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+.third ul li :hover{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+.fourth ul li :hover{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+.fifth {
+  width: 20%;
+  color:#44D62C;
+  font-size: medium;
+}
+.fifth img{
+  width: 2em;
+  height: 2em;
+  }
+  .social{
+    padding-left: 90px;
+  }
+  .line hr{
+    width: 90%;
+    margin: auto;
+    height: 0.5px;
+  }
+  .end a{
+    color:#555555 ;
+    padding-left: 70px;
+
+  }
+.endlist{
+  height: 50px;
+  width: 100%;
+  color:#555555;
+  font-size: smaller;
+ 
+  
+background-color: #111111;
+
+}
+.endlist ul{
+  display: flex;
+  word-spacing: 0.spx;
+  list-style-type: none;   
+  justify-content: space-between;
+  justify-content: center;
+  
+}
+.endlist ul li{
+  margin-right: 10px;
+}
+
+.endlist ul li :hover{
+  color: white;
+  cursor: pointer;
+  
+  text-decoration: underline;
+
+}
+.line{
+  background-color: #111111;
+}
+.linebox{
+  background-color: #111111;
+}
